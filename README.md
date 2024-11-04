@@ -10,6 +10,12 @@ The Stellar-Snapshots is a web application that allows users to view and save im
 - **View HD Image**: Clicking on the image displays a high-definition version.
 - **Remove Images**: Users can remove any saved image from the gallery with a single click.
 
+## Project Structure
+
+- **HTML**: Basic structure of the page with a date input form and containers for displaying results.
+- **CSS**: Styling for the layout, color boxes, and form elements.
+- **JavaScript**: Handles the API requests, dynamic creation of HTML elements, and `localStorage` interactions.
+  
 ##Technologies Used
 - HTML5
 - CSS3
@@ -17,12 +23,15 @@ The Stellar-Snapshots is a web application that allows users to view and save im
 - Fetch API
 - LocalStorage
 
+
 ### Note: This project uses the NASA API to retrieve the image based on the selected date.
 
-## Getting Started
+
+## How to Run
+
 1. **Clone the Repository**:
    ```bash
- git clone https://github.com/Idenshah/Stellar-Snapshots
+   git clone https://github.com/Idenshah/Stellar-Snapshots.git
 2. Open the index.html file in a web browser.
 3. Select a date and click the "Get Picture" button to see the image associated with that date.
 4. You can clear your gallery by clicking the "Remove" button.
