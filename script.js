@@ -16,7 +16,7 @@ const favBox = document.createElement("div");
 favBox.classList.add("favourite");
 const favTitle = document.createElement("h1");
 favTitle.textContent = "Favourite Images";
-const favText = document.createElement("h3");
+const favText = document.createElement("h2");
 favText.classList.add("favTxt");
 favBox.append(favTitle, favText);
 const savedImage = JSON.parse(localStorage.getItem("favorites")) || [];
